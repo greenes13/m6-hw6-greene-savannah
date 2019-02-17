@@ -1,7 +1,7 @@
 var button = document.getElementsByTagName ('button')[0]
 
 var ourRandomRestaurantItem = document.createElement('p');
-var restaurantItemWrapper = document.getElementById('generator-resutls');
+var restaurantItemWrapper = document.getElementById('generator-results');
 restaurantItemWrapper.appendChild(ourRandomRestaurantItem);
 
 var placeholderText = document.createTextNode('');
